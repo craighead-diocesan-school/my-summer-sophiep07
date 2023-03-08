@@ -105,4 +105,11 @@
   nav    { grid-area: n; }
   main   { grid-area: m; }
   footer { grid-area: f; }
+
+  @media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
 </style>
